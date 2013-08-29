@@ -1,0 +1,14 @@
+Vector.o Vector.o: Vector.cpp Vector.h /sw/include/SDL/SDL_opengl.h \
+  /System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
+  /System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+
+Vector.h:
+
+/sw/include/SDL/SDL_opengl.h:
+
+/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
+/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:
+
+/System/Library/Frameworks/OpenGL.framework/Headers/glext.h:

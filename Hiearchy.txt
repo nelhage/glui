@@ -1,0 +1,29 @@
+GLUIApp
+
+GLUIObject
+	ProcessEvent(SDL_Event);
+	Draw();
+	|
+	+---GLUIWindow
+	|	|
+	+	+---GLUIScrollWindow
+	|
+	+---GLUIControl
+		|
+		+---GLUILabel
+		|
+		+---GLUIButton
+		|	|
+		+	+---GLUIPushButton
+		|	|
+		+	+---GLUIToggleButton
+		|		|
+		+		+---GLUICheckbox
+		|		|
+		+		+---GLUIRadioButton
+		|
+		+---GLUIRadioButtonGroup
+		|
+		+---GLUIInput
+			|
+			+--GLUIInputField
